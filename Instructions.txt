@@ -1,0 +1,35 @@
+
+Approach to the Solution:
+Web Scraping:
+
+Used the requests library to fetch the content of a web page.
+Utilized BeautifulSoup for parsing HTML content to extract text data.
+Text Processing:
+
+Employed NLTK for tokenization and removal of stopwords.
+Loaded additional stopwords from text files.
+Extracted positive and negative words from text files for sentiment analysis.
+Calculated various metrics related to text complexity, sentiment, and readability.
+DataFrame Update and Export:
+
+Read a predefined Excel file containing a structured layout for metric storage.
+Updated the DataFrame with the calculated metrics.
+Saved the updated DataFrame back to the Excel file.
+Exported the DataFrame to a CSV file for further analysis or sharing.
+
+
+How to Run the .py File:
+
+Dependencies:
+
+Ensure you have Python installed on your system.
+Install the required dependencies using the following commands:
+ 
+File Placement:
+
+Place the script file (analyze_web_page.py) in a directory.
+Ensure the text files (StopWords_Auditor.txt, StopWords_Currencies.txt, etc.) containing additional stopwords are in the same directory as the script.
+Place the positive and negative word files in the same directory.
+Keep the Excel file (Output Data Structure.xlsx) with the predefined structure in the same directory.
+ 
+Ensure that the web page being scraped allows scraping and adheres to ethical standards and legal regulations. Always respect the terms of service and robots.txt files of websites to avoid legal issues.
